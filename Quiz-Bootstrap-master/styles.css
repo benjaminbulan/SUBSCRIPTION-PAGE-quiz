@@ -1,0 +1,101 @@
+/* Base */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 20px 0px;
+  background-color: transparent;
+  transition: all ease 0.4s;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #ffffff;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active,
+.navbar .navbar-brand:focus {
+  color: #0d6efd;
+}
+.navbar .navbar-nav li a {
+  font-weight: bold;
+  color: #eeeeee !important;
+}
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav li a:active,
+.navbar .navbar-nav li a:focus {
+  color: #333333 !important;
+}
+.navbar .navbar-nav li a.active {
+  color: #333333 !important;
+}
+
+/* Home Section */
+#home {
+  padding: 100px 0px;
+  background: linear-gradient(to right, rgba(102, 125, 182, 0.5), rgba(0, 130, 200, 0.5), rgba(0, 130, 200, 0.5), rgba(102, 125, 182, 05)), url('https://egertontm.com/wp-content/uploads/2018/06/blue-gradient-background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+#home h1 {
+  margin-top: 40px; 
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#home img {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 55%;
+  top: 9.5%;
+  height: 35%;
+  text-align: center;
+}
+
+.service{
+  text-align: CENTER;
+  font-size: 25px;
+  font-style: BOLD;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+/* Media Quires */
+@media screen
+and ( max-width: 768px ) {
+  /* Navigation Bar */
+  .navbar .navbar-collapse {
+    background: linear-gradient(to right, rgb(102, 125, 182), rgb(0, 130, 200), rgb(0, 130, 200), rgb(102, 125, 182));
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  /* Home Section */
+  #home button {
+    margin-top: 15px;
+  }
+
+  /* Download Section */
+  #download h3 {
+    font-size: 30px;
+  }
+  #download .downloads img {
+    width: 48%;
+  }
+
+  /* Contact Section */
+  #contact h4 {
+    margin-top: 20px;
+  }
+}
